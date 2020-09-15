@@ -1,0 +1,1 @@
+# ExempleJUnit-ConfigMaven
