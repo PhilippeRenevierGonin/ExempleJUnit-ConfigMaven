@@ -24,6 +24,12 @@ public class Joueur421 {
             lancé.retenirJet(1);
             lancé.retenirJet(2);
         }
+        else if ((lancé.valeurJet(0) == 1) && (lancé.valeurJet(1) == 1) && (lancé.valeurJet(2) == 1))
+        {
+            lancé.retenirJet(0);
+            lancé.retenirJet(1);
+            lancé.retenirJet(2);
+        }
 
         return lancé;
     }
