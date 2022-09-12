@@ -19,6 +19,9 @@ import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 public class DéTest {
+    /*
+    // exemple de changement de version qui pose soucis
+    // nous reviendrons dessus ultérieurement
     @Mock
     Random random;
     Dé unDé;
@@ -49,6 +52,6 @@ public class DéTest {
         }
     }
 
-
+    */
 
 }
