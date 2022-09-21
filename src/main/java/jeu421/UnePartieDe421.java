@@ -21,8 +21,8 @@ public class UnePartieDe421 {
      * sous windows, dans cmd, il faudra taper chcp 65001 pour passer la console en UTF-8 et avoir une
      * police de caractère compatible (Courier New)
      */
-    public void initialisation() {
-        joueur = new Joueur421();
+    public void initialisation(Joueur421 j) {
+        joueur = j;
 
         try {
             System.setOut(new PrintStream(System.out, true, "UTF-8"));
@@ -46,7 +46,7 @@ public class UnePartieDe421 {
 
     public static void main(String[] args) {
         UnePartieDe421 partie = new UnePartieDe421();
-        partie.initialisation();
+        partie.initialisation(new Joueur421());
          partie.uneManche();
     }
 }
